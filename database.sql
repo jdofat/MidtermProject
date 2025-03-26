@@ -11,27 +11,6 @@
 
 */
 
-CREATE DATABASE quotesdb;
-
-  CREATE TABLE authors (
-    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-    author VARCHAR(255) NOT NULL
-  );
-
-  CREATE TABLE categories (
-    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-    category VARCHAR(255) NOT NULL
-  );
-
-CREATE TABLE quotes (
-  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  quote NOT NULL,
-  author_id INT NOT NULL,
-  category_id INT NOT NULL,
-    FOREIGN KEY (author_id) REFERENCES authors(id),
-    FOREIGN KEY (category_id) REFERENCES categories(id)
-);
-
 /*
 ✅QUOTES: 
 1."The only way to do great work is to love what you do." - J.R.R. Tolkien 
@@ -105,8 +84,31 @@ CREATE TABLE quotes (
 ✅3. A categeory with an id = 4. 
 ✅4. Your author with the id = 5 should have two quotes in the category id = 4. 
 
-✅INSERT QUOTES: 
 */
+
+
+CREATE DATABASE quotesdb;
+
+  CREATE TABLE authors (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    author VARCHAR(255) NOT NULL
+  );
+
+  CREATE TABLE categories (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    category VARCHAR(255) NOT NULL
+  );
+
+CREATE TABLE quotes (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  quote NOT NULL,
+  author_id INT NOT NULL,
+  category_id INT NOT NULL,
+    FOREIGN KEY (author_id) REFERENCES authors(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+
 
 INSERT INTO quotes (quote, author_id, category_id)
   VALUES ("The only way to do great work is to love what you do.", 1, 1);
