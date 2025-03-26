@@ -107,37 +107,37 @@ CREATE TABLE quotes (
 
 */
 
-INSERT INTO authors (author) VALUES ('J.R.R. Tolkien');
-INSERT INTO authors (author) VALUES ('Eleanor Roosevelt');
-INSERT INTO authors (author) VALUES ('Theodore Roosevelt');
-INSERT INTO authors (author) VALUES ('Plutarch');
-INSERT INTO authors (author) VALUES ('Nelson Mandela');
-INSERT INTO authors (author) VALUES ('Aristotle');
-INSERT INTO authors (author) VALUES ('Oscar Wilde');
-INSERT INTO authors (author) VALUES ('Leo Buscaglia');
-INSERT INTO authors (author) VALUES ('Ralph Waldo Emerson');
-INSERT INTO authors (author) VALUES ('Mark Twain');
-INSERT INTO authors (author) VALUES ('Nora Ephron');
-INSERT INTO authors (author) VALUES ('Henry Ford');
-INSERT INTO authors (author) VALUES ('Albert Einstein');
-INSERT INTO authors (author) VALUES ('B.B. King');
-INSERT INTO authors (author) VALUES ('Leonardo da Vinci');
-INSERT INTO authors (author) VALUES ('Benjamin Franklin');
-INSERT INTO authors (author) VALUES ('Sydney J. Harris');
-INSERT INTO authors (author) VALUES ('John Dewey');
-INSERT INTO authors (author) VALUES ('Antoine de Saint-Exupéry');
-INSERT INTO authors (author) VALUES ('Abigail Adams');
-INSERT INTO authors (author) VALUES ('Emily Dickinson');
-INSERT INTO authors (author) VALUES ('George Eliot');
-INSERT INTO authors (author) VALUES ('Haruki Murakami');
-INSERT INTO authors (author) VALUES ('William Shakespeare');
-INSERT INTO authors (author) VALUES ('Plato');
+INSERT INTO authors (author, author_id) VALUES ('J.R.R. Tolkien', 1);
+INSERT INTO authors (author, author_id) VALUES ('Eleanor Roosevelt', 2);
+INSERT INTO authors (author, author_id) VALUES ('Theodore Roosevelt', 3);
+INSERT INTO authors (author, author_id) VALUES ('Plutarch', 4);
+INSERT INTO authors (author, author_id) VALUES ('Nelson Mandela', 5);
+INSERT INTO authors (author, author_id) VALUES ('Aristotle', 6);
+INSERT INTO authors (author, author_id) VALUES ('Oscar Wilde', 7);
+INSERT INTO authors (author, author_id) VALUES ('Leo Buscaglia', 8);
+INSERT INTO authors (author, author_id) VALUES ('Ralph Waldo Emerson', 9);
+INSERT INTO authors (author, author_id) VALUES ('Mark Twain', 10);
+INSERT INTO authors (author, author_id) VALUES ('Nora Ephron', 11);
+INSERT INTO authors (author, author_id) VALUES ('Henry Ford', 12);
+INSERT INTO authors (author, author_id) VALUES ('Albert Einstein', 13);
+INSERT INTO authors (author, author_id) VALUES ('B.B. King', 14);
+INSERT INTO authors (author, author_id) VALUES ('Leonardo da Vinci', 15);
+INSERT INTO authors (author, author_id) VALUES ('Benjamin Franklin', 16);
+INSERT INTO authors (author, author_id) VALUES ('Sydney J. Harris', 17);
+INSERT INTO authors (author, author_id) VALUES ('John Dewey', 18);
+INSERT INTO authors (author, author_id) VALUES ('Antoine de Saint-Exupéry', 19);
+INSERT INTO authors (author, author_id) VALUES ('Abigail Adams', 20);
+INSERT INTO authors (author, author_id) VALUES ('Emily Dickinson', 21);
+INSERT INTO authors (author, author_id) VALUES ('George Eliot', 22);
+INSERT INTO authors (author, author_id) VALUES ('Haruki Murakami', 23);
+INSERT INTO authors (author, author_id) VALUES ('William Shakespeare', 24);
+INSERT INTO authors (author, author_id) VALUES ('Plato', 25);
 
 
-INSERT INTO categories (category) VALUES ('Inspirational');
-INSERT INTO categories (category) VALUES ('Love');
-INSERT INTO categories (category) VALUES ('Pain');
-INSERT INTO categories (category) VALUES ('Education');
+INSERT INTO categories (category, category_id) VALUES ('Inspirational', 1);
+INSERT INTO categories (category, category_id) VALUES ('Love', 2);
+INSERT INTO categories (category, category_id) VALUES ('Pain', 3);
+INSERT INTO categories (category, category_id) VALUES ('Education', 4);
 
 /*
 ✅INSERT QUOTES: 
