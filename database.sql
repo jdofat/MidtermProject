@@ -47,7 +47,7 @@ CREATE TABLE quotes (
 11."Your education is a dress rehearsal for a life that is yours to lead." - Nora Ephron 
 12."Failure is simply the opportunity to begin again, this time more intelligently." - Henry Ford 
 13."A person who never made a mistake never tried anything new." - Albert Einstein 
-14."The14 beautiful thing about learning is nobody can take it away from you." - B.B. King 
+14."The beautiful thing about learning is nobody can take it away from you." - B.B. King 
 15."Learning never exhausts the mind." - Leonardo da Vinci 
 16."An investment in knowledge pays the best interest." - Benjamin Franklin 
 17."The whole purpose of education is to turn mirrors into windows." - Sydney J. Harris 
@@ -107,15 +107,125 @@ CREATE TABLE quotes (
 
 */
 
+INSERT INTO authors (author) VALUES ('J.R.R. Tolkien');
+INSERT INTO authors (author) VALUES ('Eleanor Roosevelt');
+INSERT INTO authors (author) VALUES ('Theodore Roosevelt');
+INSERT INTO authors (author) VALUES ('Plutarch');
+INSERT INTO authors (author) VALUES ('Nelson Mandela');
+INSERT INTO authors (author) VALUES ('Aristotle');
+INSERT INTO authors (author) VALUES ('Oscar Wilde');
+INSERT INTO authors (author) VALUES ('Leo Buscaglia');
+INSERT INTO authors (author) VALUES ('Ralph Waldo Emerson');
+INSERT INTO authors (author) VALUES ('Mark Twain');
+INSERT INTO authors (author) VALUES ('Nora Ephron');
+INSERT INTO authors (author) VALUES ('Henry Ford');
+INSERT INTO authors (author) VALUES ('Albert Einstein');
+INSERT INTO authors (author) VALUES ('B.B. King');
+INSERT INTO authors (author) VALUES ('Leonardo da Vinci');
+INSERT INTO authors (author) VALUES ('Benjamin Franklin');
+INSERT INTO authors (author) VALUES ('Sydney J. Harris');
+INSERT INTO authors (author) VALUES ('John Dewey');
+INSERT INTO authors (author) VALUES ('Antoine de Saint-Exupéry');
+INSERT INTO authors (author) VALUES ('Abigail Adams');
+INSERT INTO authors (author) VALUES ('Emily Dickinson');
+INSERT INTO authors (author) VALUES ('George Eliot');
+INSERT INTO authors (author) VALUES ('Haruki Murakami');
+INSERT INTO authors (author) VALUES ('William Shakespeare');
+INSERT INTO authors (author) VALUES ('Plato');
 
 
+INSERT INTO categories (category) VALUES ('Inspirational');
+INSERT INTO categories (category) VALUES ('Love');
+INSERT INTO categories (category) VALUES ('Pain');
+INSERT INTO categories (category) VALUES ('Education');
 
+/*
+✅INSERT QUOTES: 
+*/
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The only way to do great work is to love what you do.", 1, 1);
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The future belongs to those who believe in the beauty of their dreams.", 2, 1);
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Believe you can and you're halfway there.", 3, 1);
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The mind is not a vessel to be filled, but a fire to be kindled.", 4, 1);
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Education is the most powerful weapon which you can use to change the world.", 5, 4);
 
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The roots of education are bitter, but the fruit is sweet.", 6, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("To live is the rarest thing in the world. Most people exist, that is all.", 7, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Change is the end result of all true learning.", 8, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The only person you are destined to become is the person you decide to be.", 9, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The secret to getting ahead is getting started.", 10, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Your education is a dress rehearsal for a life that is yours to lead.", 11, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Failure is simply the opportunity to begin again, this time more intelligently.", 12, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("A person who never made a mistake never tried anything new.", 13, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The beautiful thing about learning is nobody can take it away from you." , 14, 4);
+  
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Learning never exhausts the mind.", 15, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("An investment in knowledge pays the best interest.", 16, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The whole purpose of education is to turn mirrors into windows.", 17, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Education is not preparation for life; education is life itself.", 18, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("It is only with the heart that one can see rightly; what is essential is invisible to the eye.", 19, 2);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.", 20, 4);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("That it will never come again is what makes life so sweet.", 21, 3);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("It is never too late to be what you might have been.", 22, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.", 9, 1);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Pain is inevitable. Suffering is optional.", 23, 3);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("All the world's a stage, and all the men and women merely players.", 24, 3);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Be kind, for everyone you meet is fighting a hard battle.", 25, 2);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("Unable are the loved to die for love is immortality.", 21, 2);
+
+INSERT INTO quotes (quote, author_id, category_id)
+  VALUES ("The power of education extends beyond the development of skills we need for economic success.", 5, 4);
 
 
 
