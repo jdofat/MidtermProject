@@ -134,6 +134,11 @@ INSERT INTO authors (author, author_id) VALUES ('Haruki Murakami', 23);
 INSERT INTO authors (author, author_id) VALUES ('William Shakespeare', 24);
 INSERT INTO authors (author, author_id) VALUES ('Plato', 25);
 
+INSERT INTO categories (category, category_id) VALUES ('Inspirational', 1);
+INSERT INTO categories (category, category_id) VALUES ('Love', 2);
+INSERT INTO categories (category, category_id) VALUES ('Pain', 3);
+INSERT INTO categories (category, category_id) VALUES ('Education', 4);
+
 INSERT INTO quotes (quote, author_id, category_id)
   VALUES ("The only way to do great work is to love what you do.", 1, 1);
 
