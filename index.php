@@ -1,4 +1,6 @@
+/*
 Insure you have the following in your data: 
+
 1. A quote with an id = 10.
 2. An author with an id = 5. 
 3. A categeory with an id = 4. 
@@ -26,4 +28,5 @@ b) authors (id, author)
 c) categories (id, category)
 d) id is the primary key in each table
 e) The id column should also auto-increment
-f) All columns should be non-null
+f) All columns should be non-null 
+*/
