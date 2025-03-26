@@ -1,8 +1,8 @@
 <?php
 class Database {
     private $db_name = 'MidtermProject';
-    private $username = 'username';
-    private $password = 'password';
+    private $username = 'root';
+    private $password = '';
     private $host = 'localhost';
     public $conn;
 
