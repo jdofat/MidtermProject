@@ -108,7 +108,31 @@ CREATE TABLE quotes (
     FOREIGN KEY (category_id) REFERENCES categories(id)
 );
 
-
+INSERT INTO authors (author, author_id) VALUES ('J.R.R. Tolkien', 1);
+INSERT INTO authors (author, author_id) VALUES ('Eleanor Roosevelt', 2);
+INSERT INTO authors (author, author_id) VALUES ('Theodore Roosevelt', 3);
+INSERT INTO authors (author, author_id) VALUES ('Plutarch', 4);
+INSERT INTO authors (author, author_id) VALUES ('Nelson Mandela', 5);
+INSERT INTO authors (author, author_id) VALUES ('Aristotle', 6);
+INSERT INTO authors (author, author_id) VALUES ('Oscar Wilde', 7);
+INSERT INTO authors (author, author_id) VALUES ('Leo Buscaglia', 8);
+INSERT INTO authors (author, author_id) VALUES ('Ralph Waldo Emerson', 9);
+INSERT INTO authors (author, author_id) VALUES ('Mark Twain', 10);
+INSERT INTO authors (author, author_id) VALUES ('Nora Ephron', 11);
+INSERT INTO authors (author, author_id) VALUES ('Henry Ford', 12);
+INSERT INTO authors (author, author_id) VALUES ('Albert Einstein', 13);
+INSERT INTO authors (author, author_id) VALUES ('B.B. King', 14);
+INSERT INTO authors (author, author_id) VALUES ('Leonardo da Vinci', 15);
+INSERT INTO authors (author, author_id) VALUES ('Benjamin Franklin', 16);
+INSERT INTO authors (author, author_id) VALUES ('Sydney J. Harris', 17);
+INSERT INTO authors (author, author_id) VALUES ('John Dewey', 18);
+INSERT INTO authors (author, author_id) VALUES ('Antoine de Saint-Exupéry', 19);
+INSERT INTO authors (author, author_id) VALUES ('Abigail Adams', 20);
+INSERT INTO authors (author, author_id) VALUES ('Emily Dickinson', 21);
+INSERT INTO authors (author, author_id) VALUES ('George Eliot', 22);
+INSERT INTO authors (author, author_id) VALUES ('Haruki Murakami', 23);
+INSERT INTO authors (author, author_id) VALUES ('William Shakespeare', 24);
+INSERT INTO authors (author, author_id) VALUES ('Plato', 25);
 
 INSERT INTO quotes (quote, author_id, category_id)
   VALUES ("The only way to do great work is to love what you do.", 1, 1);
