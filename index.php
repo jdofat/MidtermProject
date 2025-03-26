@@ -29,4 +29,26 @@ c) categories (id, category)
 d) id is the primary key in each table
 e) The id column should also auto-increment
 f) All columns should be non-null 
+
 */
+
+<?php
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
