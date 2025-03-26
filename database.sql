@@ -222,7 +222,3 @@ INSERT INTO quotes (quote, author_id, category_id)
 
 INSERT INTO quotes (quote, author_id, category_id)
   VALUES ("The power of education extends beyond the development of skills we need for economic success.", 5, 4);
-
-
-
-
