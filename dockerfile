@@ -1,7 +1,7 @@
-# Use the official PHP image as a base image
+# dockerfile using the official PHP image as a base image
 FROM php:8.0-apache
 
-# Install dependencies (if required for your project, e.g., extensions)
+# Install dependencies
 RUN apt-get update && apt-get install -y libpng-dev libjpeg-dev libfreetype6-dev && \
     docker-php-ext-configure gd --with-freetype --with-jpeg && \
     docker-php-ext-install gd
