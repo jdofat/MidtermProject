@@ -1,0 +1,7 @@
+{
+    "name": "quotes-api",
+    "description": "PHP API for Quotes",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
+}
